@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report Theme: standard or dark -->
+        <theme>dark</theme>
+        
+        <!-- Document Title -->
+        <documentTitle>Cucumber Extent Report</documentTitle>
+        
+        <!-- Report Name -->
+        <reportName>Automation Execution Report</reportName>
+        
+        <!-- Timeline feature -->
+        <enableTimeline>true</enableTimeline>
+        
+        <!-- Dashboard view -->
+        <enableDashboard>true</enableDashboard>
+        
+        <!-- Encoding -->
+        <encoding>UTF-8</encoding>
+        
+        <!-- Enable/Disable screenshots (true/false) -->
+        <thumbnailForBase64>true</thumbnailForBase64>
+        
+        <!-- Offline mode for portability -->
+        <offlineMode>true</offlineMode>
+        
+        <!-- Custom JS and CSS injection -->
+        <scripts>
+            <![CDATA[
+                console.log("Custom JS loaded");
+            ]]>
+        </scripts>
+        <styles>
+            <![CDATA[
+                .report-name { color: #00bfff; font-weight: bold; }
+            ]]>
+        </styles>
+        
+        <!-- System info -->
+        <systemInfo>
+            <info name="Browser" value="Chrome 122"/>
+            <info name="OS" value="Windows 11"/>
+            <info name="Tester" value="QA Team"/>
+        </systemInfo>
+    </configuration>
+</extentreports>
