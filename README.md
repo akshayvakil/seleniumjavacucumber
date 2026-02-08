@@ -1,9 +1,8 @@
 **🥒 Cucumber + Selenium Automation Framework
 
+This repository demonstrates an advanced Cucumber + Selenium + Java automation framework showcasing modular design with **Page Object Model, Hooks, and BaseClass**.
+It covers a DataTable‑driven Registration feature, executed via a dedicated runner class for end‑to‑end validation.
 
-**🚀** Project Summary****
-
-An enterprise-ready test automation framework built using Cucumber (BDD) and Selenium WebDriver with Java. Designed to demonstrate real-world automation architecture, clean coding practices, and scalable test execution—ideal for interviews and production-grade use cases.
 
 **Tech Stack:**
 Java · Selenium WebDriver · Cucumber (BDD) · TestNG / JUnit · ExtentReports / Allure
