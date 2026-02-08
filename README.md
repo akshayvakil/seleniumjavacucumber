@@ -7,11 +7,18 @@ It covers a DataTable‑driven Registration feature, executed via a dedicated ru
 **Tech Stack:**
 Java · Selenium WebDriver · Cucumber (BDD) · TestNG / JUnit · ExtentReports / Allure
 
+**🔑 Framework Highlights**
+Hooks (Hooks.java) manage driver lifecycle (@Before → setup, @After → teardown).
 
-# 🥒 Cucumber Practice Feature Files
+BaseClass centralizes WebDriver initialization and utilities.
 
-This repository contains Cucumber feature files created to practice **core and advanced BDD concepts** commonly used in real-world automation frameworks.
+Page Object Model (POM) separates locators (RegistrationPageLocators.java) and actions (RegistrationPageActions.java).
 
+Data‑Driven Testing via Cucumber DataTables for flexible input.
+
+Tagged Hooks & Runner Options allow selective execution.
+
+Reports generated through plugins (HTML/JSON/Extent).
 ---
 
 ## 📄 Example1_BasicFeature.feature
