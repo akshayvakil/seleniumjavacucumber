@@ -5,7 +5,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
     features = "src/test/resources/features/Example1_BasicFeature.feature", // Path to feature files
-    glue = {"steps"},                         // Package containing step definitions
+    glue = {"steps","hooks"},                         // Package containing step definitions
     plugin = {
         "pretty",                             // Prints steps in console
         "html:target/cucumberReports/basicReport.html", // Default Cucumber HTML report
